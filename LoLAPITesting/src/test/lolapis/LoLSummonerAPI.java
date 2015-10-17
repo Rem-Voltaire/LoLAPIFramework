@@ -11,7 +11,7 @@ import org.json.JSONObject;
 
 public class LoLSummonerAPI {
 
-	private static final String API_KEY = "15a35373-12e2-4135-83d4-5e124730d170";
+	private static final String API_KEY = "";
 	private final String API_VERSION;
 	
 	private String baseUrl;
