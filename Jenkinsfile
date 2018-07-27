@@ -4,7 +4,7 @@ pipeline {
     stage('Build') {
       steps {
         tool 'M3'
-        tool(name: 'JDK 1.8', type: 'Compiler')
+        tool 'JDK18'
         sh 'mvn --version'
       }
     }
